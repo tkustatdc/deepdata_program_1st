@@ -1,386 +1,745 @@
-<!DOCTYPE html>
-<html lang="zh-Hant-TW">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TSDC 深度資料力培訓計畫</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-  <head>
+  <!-- Favicons -->
+  <link href="img/logo.png" rel="icon">
+  <link href="img/logo.png" rel="apple-touch-icon">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
 
-    <title>TSDC 深度資料力培訓計畫</title>
-    <link rel="Shortcut Icon" type="image/x-icon" href="img/logo.png" />
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <!-- Nivo Slider Theme -->
+  <link href="css/nivo-slider-theme.css" rel="stylesheet">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/creative.css" rel="stylesheet">
+  <!-- Responsive Stylesheet File -->
+  <link href="css/responsive.css" rel="stylesheet">
 
-  </head>
+  <!-- =======================================================
+    Theme Name: eBusiness
+    Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
 
-  <body id="page-top">
+<body data-spy="scroll" data-target="#navbar-example">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger d-none d-sm-block" href="#page-top">∞ TSDC ∞</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">TSDC簡介</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#info">關於計畫</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#apply">報名資訊</a>
-            </li>  
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#mentor">業師及顧問群</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#QnA">Q&A</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">主辦單位</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <div id="preloader"></div>
 
-    <header class="masthead text-center text-white d-flex">
-      <div class="container my-auto">
-          <img src="img/logo.png" height="150px">
-          <p></p>
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h1>
-              <strong>第一屆深度資料力培訓計畫</strong>
-            </h1>
-            <h3>
-              The Deep Data Program
-            </h3>
-            <hr class="light">
-          </div>
-          <div class="col-lg-8 mx-auto">
-              
-            <p class="text-white mb-5"> 選拔活動正式開跑 <br> 想跟我們一起爬資料、清資料、玩資料嗎?</p>
-            <div class="col-lg-8 col-sm-8 mx-auto">
-               <a class="btn btn-light btn-xl js-scroll-trigger" href="#info">了解更多</a>
-            </div>
-            <br>
-            <div class="col-lg-8 col-sm-8 mx-auto">
-              <a class="btn btn-light btn-xl js-scroll-trigger" href="#apply">直奔報名</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="bg-primary" id="about">
+  <header>
+    <!-- header-area start -->
+    <div id="sticker" class="header-area">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">About</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-5" align="justify"> Mission <br><br> TSDC (Tamkang Statistics Data Club)為淡江統計學系系友所成立的社團，旨在提供對於資料分析有興趣的系友們一個共同學習與討論的空間，透過不同實務經驗的分享交流，達到共同成長，創造多元的發展機會。同時亦將結合系友們在不同領域的知識與力量，對系上年輕學子做經驗傳承，與業界接軌，培養出更多的數據分析人才。</p>
-            <p class="text-faded mb-5" align="justify"> Vision <br><br> 期望透過這個平台，增加系友的凝聚力，提升統計人在業界的重要性，培養數據分析人才，致力於社會公益。</p>
-          </div>
-        </div>
-      </div>
-    </section>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
-    <section id="info">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">深度資料力培訓計畫</h2>
-            <h4> The Deep Data Program </h4>
-            <hr class="my-4">
+            <!-- Navigation -->
+            <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <!-- Brand -->
+                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+                  <h1>T<span>SD</span>C</h1>
+                  <!-- Uncomment below if you prefer to use an image logo -->
+                  <!-- <img src="img/logo.png" alt="" title=""> -->
+                </a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                    <a class="page-scroll" href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#program">關於計畫</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#apply">報名資訊</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#timeline">計畫時程</a>
+                  </li>                  
+                  <li>
+                    <a class="page-scroll" href="#team">業師與顧問群</a>
+                  </li>
+                  <li>
+                  <li>
+                    <a class="page-scroll" href="#qa">Q&A</a>
+                  </li>                  
+                  <li>
+                    <a class="page-scroll" href="#contact">主辦單位</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- navbar-collapse -->
+            </nav>
+            <!-- END: Navigation -->
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="text-muted mb-0" align="justify"> 在這個「大數據」、「AI」 聲浪四起的時代，許多實體及線上的資料課程正如雨後春筍般冒出。頂著數據分析頭銜的人也因此迅速暴增，怎麼樣才稱得上一名數據分析師，這個問題正衝擊整個資料圈。此時，唯有深度融會貫通，從理論到實踐，將所學推向極限，才能打造差異化，創造職涯亮點。</p>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-magic text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">專家引路</h3>
-              <p class="text-muted mb-0" align="justify">
-                想踏入數據分析的領域中，卻常對資料感到迷惘，不知道該如何下手？強大的業師及顧問群，將會是這茫茫資料海中的一盞明燈。</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-graduation-cap text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">經驗傳承</h3>
-              <p class="text-muted mb-0" align="justify">
-                經驗是最寶貴的知識，讓系友們透過經驗分享，告訴你通往專業的道路上會遇到的問題。快速找到對的方向、使用對的工具。</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-line-chart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">技能提升</h3>
-              <p class="text-muted mb-0" align="justify">
-                有了明確的目標、強大的意志，接下來你需要的是更多的實務經驗，不要怕動手，我們一起 Coding 吧！</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box mt-5 mx-auto">
-              <i class="fa fa-4x fa-sitemap text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">人脈累積</h3>
-              <p class="text-muted mb-0" align="justify">
-                除了工作技能外，人脈更是不可或缺的能力，人脈累積的高度也將會決定你在社會的高度。透過活動中一起討論、相互交流，編織自己的人脈網，提高自己的職場即戰力!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+    <!-- header-area end -->
+  </header>
+  <!-- header end -->
 
-    <section class="bg-dark text-white" id="apply">
-        <div class="container text-center">
-          <h2 class="mb-4">報名資訊</h2>
-          <hr class="light my-4">
-          <div class="row text-left m-1">
-            <div class="col-lg-6 col-sm-6 mx-auto info-box">
-              <h4>時間</h4>
-              <p>10/01 ~ 1/31<br>107 學年度 第一學期</p>
-            </div>
-            <div class="col-lg-6 col-sm-6 mx-auto info-box">
-              <h4>地點</h4>
-              <p>淡江大學 淡水校區 <br>商管大樓</p>
-            </div>
-            <div class="col-lg-6 col-sm-6 mx-auto info-box">
-              <h4>報名期限</h4>
-              <p> 9/10(一) 00:00 ~ 9/21(五) 23:59</p>
-            </div>
-            <div class="col-lg-6 col-sm-6 mx-auto info-box">
-              <h4>報名費用</h4>
-              <p> 押金...</p>
-            </div>
-            <div class="col-lg-6 col-sm-6 mx-auto info-box">
-              <h4>招募對象</h4>
-              <p>淡江統計系 大二以上在學學生</p>
-            </div>
-            <div class="col-lg-6 col-sm-6 mx-auto info-box">
-              <h4>報名限制</h4>
-              <p>需修過統計學</p>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div class="col-lg-4 mx-auto container text-center">
-          <a class="btn btn-light btn-xl sr-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdGnjbGqNtMa_Pe2emgyY2is9wSNy74k9H9Ch3A1lF8peTzXQ/viewform?usp=sf_link">前往報名</a>
-        </div>
-      </section>
+  <!-- Start Slider Area -->
+  <div id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="img/slider/slider1.png" alt="" title="#slider-direction-1" />
+        <img src="img/slider/slider2.png" alt="" title="#slider-direction-2" />
+        <img src="img/slider/slider3.png" alt="" title="#slider-direction-3" />
+      </div>
 
-    <section id="mentor">
-      <div class="container">
+      <!-- direction -->
+      <div id="slider-direction-1" class="slider-direction slider-one">
+        <div class="container">
           <div class="row">
-            <div class="col-lg-12">
-              <h2 class="section-heading" align="center">Mentor</h2>
-              <hr class="my-4">
-              <br>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h1 class="title1">第一屆深度資料力培訓計畫</h1>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h2 class="title2">選拔活動正式開跑 <br>想跟我們一起爬資料、清資料、玩資料嗎?</h2>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="https://tkustatdc.github.io/homepage/">了解 TSDC</a>
+                  <a class="ready-btn page-scroll" href="#apply">我要報名</a>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center mb-4">
-              <img class="rounded-circle img-fluid d-block mx-auto" src="img/portfolio/kristen.png" alt="">
-              <br>
+          </div>
+        </div>
+      </div>
+
+  </div>
+  <!-- End Slider Area -->
+
+  <!-- Start Program area -->
+  <div id="program" class="services-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline services-head text-center">
+            <h3> <b>深度資料力培訓計畫</b> </h3>
+            <h4>The Deep Data Program</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="services-contents">
+          <div class="container">
+            <div class="row">
+                <br>
+                <div class="col-lg-8 col-lg-offset-2 mx-auto text-center">
+                  <h6 class="text-muted mb-0" align="justify"> 在這個「大數據」、「AI」 聲浪四起的時代，許多實體及線上的資料課程正如雨後春筍般冒出。頂著數據分析頭銜的人也因此迅速暴增，怎麼樣才稱得上一名數據分析師，這個問題正衝擊整個資料圈。此時，唯有深度融會貫通，從理論到實踐，將所學推向極限，才能打造差異化，創造職涯亮點。</h6>
+                </div>
+              </div>
+          </div>
+          <!-- Start Left services -->
+          <div class="col-lg-3 col-md-6">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <i class="services-icon fa fa-magic"></i> 
+                  <h4>專家引路</h4>
+                  <div class="mx-auto text-center">
+                  <h6  class="text-muted mb-0" align="justify">
+                    想踏入數據分析的領域中，卻常對資料感到迷惘，不知道該如何下手？強大的業師及顧問群，將會是這茫茫資料海中的一盞明燈。
+                  </h6>
+                </div>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <i class="services-icon fa fa-graduation-cap"></i> 
+                  <h4>經驗傳承</h4>
+                  <div class="mx-auto text-center">
+                  <h6  class="text-muted mb-0" align="justify">
+                    經驗是最寶貴的知識，讓系友們透過經驗分享，告訴你通往專業的道路上會遇到的問題。快速找到對的方向、使用對的工具。
+                  </h6>
+                </div>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <i class="services-icon fa fa-line-chart"></i> 
+                  <h4>技能提升</h4>
+                  <div class="mx-auto text-center">
+                  <h6  class="text-muted mb-0" align="justify">
+                    有了明確的目標、強大的意志，接下來你需要的是更多的實務經驗，不要怕動手，我們一起 Coding 吧！
+                  </h6>
+                </div>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <i class="services-icon fa fa-sitemap"></i> 
+                  <h4>人脈累積</h4>
+                  <div class="mx-auto text-center">
+                  <h6  class="text-muted mb-0" align="justify">
+                    除了工作技能外，人脈更是不可或缺的能力，人脈累積的高度也將會決定你在社會的高度。透過活動中一起討論、相互交流，編織自己的人脈網，提高自己的職場即戰力!
+                  </h6>
+                </div>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <!-- End Left services -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Program area -->
+
+  <!-- Start pricing area -->
+  <div id="apply" class="apply-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>報名資訊</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="pri_table_list">
+            <h3>計畫時間</h3>
+            <h6>107學年 第一學期<br>2018/10/01 - 2019/01/20</h6>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="pri_table_list">
+            <h3>地  點</h3>
+            <h6>淡江大學<br>淡水校區 / 台北校區</h6>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="pri_table_list active">
+            <span class="saleon">important</span>
+            <h3>招募對象</h3>
+            <h6>淡江大學 統計學系<br>大二以上在學學生</h6> 
+          </div>
+        </div>
+      </div>
+      <div class="row"><br></div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <div class="pri_table_list">
+            <h3>報名期限</h3>
+            <h6>2018/09/10 00:00 - 2018/09/29 23:59</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="pri_table_list active">
+            <span class="saleon">important</span>
+            <h3>報名限制</h3>
+            <h6>需修過統計學</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="pri_table_list">
+            <h3>報名費用</h3>
+            <h6>NT. 1000 <押金></h6> 
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <a class="ready-btn right-btn page-scroll" href="https://docs.google.com/forms/d/e/1FAIpQLSdGnjbGqNtMa_Pe2emgyY2is9wSNy74k9H9Ch3A1lF8peTzXQ/viewform?usp=sf_link">馬上報名</a>
+      </div>
+    </div>
+  </div>
+  <!-- End pricing table area -->
+
+  <!-- Start Timeline area -->
+  <div id="timeline" class="services-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline services-head text-center">
+            <h2>計畫時程表</h2>
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="container">
+        <div class="row">
+          <!--<div class="col-lg-2"></div>-->
+          <div class="col-lg-8 col-lg-offset-2 mx-auto text-center">
+            <ul class="timeline">
+              <li align="justify">
+                <h6 class="time_title">2018.09.10 <small><b>00:00</b></small>  <span>開始報名</span></h6>
+                <p>關於深度資料力培訓計劃的錄取標準，是以完成本次資料專案為基準，各業師會選出適當的人選進入自己的小組</p>
+              </li>
+              <li align="justify">
+                <h6 class="time_title">2018.09.29 <small><b>23:59</b></small>  <span>報名截止</span></h6>
+              </li>
+              <li align="justify">
+                <h6 class="time_title">2018.09.30  <span>正取錄取通知</span></h6>
+                <p>請於限定時間內回覆<b> E-mail </b>以表示收到入選資格<br>
+                   <small>(Note. 不論確認參加或放棄都要回覆<b> E-mail </b>，逾期回覆恕不通融)</small></p>
+              </li>
+              <li align="justify">
+                <h6 class="time_title">2018.10.01 <small><b>23:59</b></small>  <span>正取回覆截止</span></h6>
+                <p>截止時間前沒有回覆的人，我們會將名額保留給備取者<br>
+                   <small>(Note. 麻煩在 2018.09.30 沒收到通知的人，請持續注意 E-mail)</small></p>
+              </li>
+              <li align="justify">
+                <h6 class="time_title">2018.10.02  <span>備取及未錄取通知</span></h6>
+                <p>備取者也請於 <b> E-mail </b> 中的限定時間內回覆，以表示收到入選資格</p>
+              </li>
+              <li align="justify">
+                <h6 class="time_title">2018.10.06  <span>第一次工作坊</span></h6>
+                <p>Data Processing 相關探討</p>
+              </li>
+              <li align="justify">
+                <h6 class="time_title">2018.11.24  <span>期中分享</span></h6>
+                <p>各小組分享目前主題、進度狀況</p>
+              </li>
+              <li align="justify">
+                <h6 class="time_title">2018.12.01  <span>第二次工作坊</span></h6>
+                <p>Data Analyasisi knowledge 討論 </p>
+              </li>
+              <li align="justify">
+                <h6 class="time_title">2019.01.19  <span>期末分享</span></h6>
+                <p>各小組成果分享、學員心得分享</p>
+              </li>
+            </ul>          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Timeline area -->
+
+  <!-- our-skill-area start -->
+  <div class="our-skill-area fix hidden-sm">
+    <div class="test-overly"></div>
+    <div class="skill-bg area-padding-2">
+      <div class="container">
+        <!-- section-heading end -->
+        <div class="row">
+          <div class="skill-text">
+            <!-- single-skill start -->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+              <div class="single-skill">
+                <div class="progress-circular">
+                  <input type="text" class="knob" value="0" data-rel="100" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                  <h3 class="progress-h4">Love Data</h3>
+                </div>
+              </div>
+            </div>
+            <!-- single-skill end -->
+            <!-- single-skill start -->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+              <div class="single-skill">
+                <div class="progress-circular">
+                  <input type="text" class="knob" value="0" data-rel="88" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                  <h3 class="progress-h4">Data processing</h3>
+                </div>
+              </div>
+            </div>
+            <!-- single-skill end -->
+            <!-- single-skill start -->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+              <div class="single-skill">
+                <div class="progress-circular">
+                  <input type="text" class="knob" value="0" data-rel="80" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                  <h3 class="progress-h4">Data Analysis</h3>
+                </div>
+              </div>
+            </div>
+            <!-- single-skill end -->
+            <!-- single-skill start -->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+              <div class="single-skill">
+                <div class="progress-circular">
+                  <input type="text" class="knob" value="0" data-rel="65" data-linecap="round" data-width="175" data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                  <h3 class="progress-h4">Coding</h3>
+                </div>
+              </div>
+            </div>
+            <!-- single-skill end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- our-skill-area end -->
+
+  <!-- Start team Area -->
+  <div id="team" class="our-team-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Mentor</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row team-text">
+            <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/kristen.png" alt="">
+              <br><br>
               <h4>詹欣諭 Kristen Chan</h4>
               <p><small>Wave-In Data Scientist</small><br><small>TSDC Co-founder</small></p>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center mb-4">
-              <img class="rounded-circle img-fluid d-block mx-auto" src="img/portfolio/jack.png" alt="">
-              <br>
+            <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/jack.png" alt="">
+              <br><br>
               <h4>蔡育儒 Jack Tsai</h4>
               <p><small>Snapask Data Scientist</small><br><small>TSDC Co-founder</small></p>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center mb-4">
-              <img class="rounded-circle img-fluid d-block mx-auto" src="img/portfolio/szupei.png" alt="">
-              <br>
+            <div class="col-lg-4 col-md-4 col-sm-6 text-center">
+              <img class="rounded-circle img-fluid d-block mx-auto" src="img/team/szupei.png" alt="">
+              <br><br>
               <h4>王斯霈 Szupei Wang</h4>
               <p><small>Deloitte Risk Advistory Consultant</small><br><small>TSDC Co-founder</small></p>
             </div>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Consultant</h2>
           </div>
-          <br>
-          <div class="row">
-            <div class="col-lg-12">
-              <h2 class="section-heading" align="center">Consultant</h2>
-              <hr class="my-4">
-              <br>
-            </div>
-            <div class="col-lg-4 col-sm-6 text-center mb-4">
+        </div>
+      </div>
+      <div class="row team-text">
+            <div class="col-lg-4 col-md-4 col-sm-6 text-center">
               <img class="rounded-circle img-fluid d-block mx-auto" src="" alt="">
-              <br>
               <h4>陳景祥 <small>老師</small></h4>
               <p><small>淡江大學 統計學系</small></p>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <div class="col-lg-4 col-md-4 col-sm-6 text-center">
               <img class="rounded-circle img-fluid d-block mx-auto" src="" alt="">
-              <br>
               <h4>陳怡如 <small>老師</small></h4>
               <p><small>淡江大學 統計學系</small></p>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <div class="col-lg-4 col-md-4 col-sm-6 text-center">
               <img class="rounded-circle img-fluid d-block mx-auto" src="" alt="">
-              <br>
               <h4>楊  文 <small>老師</small></h4>
               <p><small>淡江大學 統計學系</small></p>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <div class="col-lg-4 col-md-4 col-sm-6 text-center">
               <img class="rounded-circle img-fluid d-block mx-auto" src="" alt="">
               <br>
               <h4>李百靈 <small>老師</small></h4>
               <p><small>淡江大學 統計學系</small><br><small>TSDC Co-founder</small></p>
             </div>
-            <div class="col-lg-4 col-sm-6 text-center mb-4">
+            <div class="col-lg-4 col-md-4 col-sm-6 text-center">
               <img class="rounded-circle img-fluid d-block mx-auto" src="" alt="">
               <br>
               <h4>陳怡如 Vivian <small>老師</small></h4>
               <p><small>淡江大學 統計學系</small></p>
             </div>
-          </div>
       </div>
-    </section>
 
+      </div>
+    </div>
+  </div>
+  <!-- End Team Area -->
 
-    <section class="bg-primary text-white" id="note">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">注意事項</h2>
-            <hr class="light my-4">
-            <p align="justify">
-            <ul align="justify">
-              <li> 本活動的最低參加人數 6 人，不滿 6 人將會取消這次活動
-              <li> 由於人力有限的關係，最終至多只會錄取 15 人
-              <li> 篩選條件會參考目前程度、你是否對資料有熱情奔放的心⋯所以報名資料內的資訊，都請用心填寫喔！
-              <li> 主辦單位可使用參加者本次活動照片與資料，作為活動文宣推廣、紀錄及行銷用。
-              <li> 主辦單位保有隨時修改及終止本活動之權利，如有任何變更內容或詳細注意事項將公布於網頁中，恕不另行個別通知。
-            </ul>
-          </p>
+  <!-- Start Suscrive Area -->
+  <div class="suscribe-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>注意事項</h2>
           </div>
         </div>
       </div>
-    </section>
-
-    <section id="QnA">
-      <div class="container">
-          <div class="col-lg-8 mx-auto">
-            <h2 class="section-heading" align="center">Q&A</h2>
-            <hr class="my-4">
-            <h4 align="justify">為什麼限淡江統計系在校學生？</h4>
-            <p class="text-muted mb-4" align="justify">TSDC 是一個淡江統計學系系友所成立的社團，主要是希望可以回饋給淡江統計系的學生。</p>
-
-            <h4 align="justify">為什麼要修過統計學？</h4>
-            <p class="text-muted mb-4" align="justify">期待已對統計有基礎了解，並對資料分析方法有些許的認識，參與這項活動才能對資料有更深入的體會。 </p>
-            
-            <h4 align="justify">一定要大二以上嗎？</h4>
-            <p class="text-muted mb-4" align="justify">在做資料分析的過程中大多需要大一課程中的知識，因此必須是大二以上的學生。(其實就是指統計學，就跟你說要好好唸書！)</p>
-
-            <h4 align="justify">若無寫程式經驗是否可參加?</h4>
-            <p class="text-muted mb-4" align="justify">R、Python、SAS，你都沒學過怎麼辦？沒關係好的業師帶你上天堂，此三種常見的資料界程式語言，業師們都有所著墨，程式只是幫助我們完成事情的工具，只要你不怕寫，只要你願意詢問，我們就在你身旁！</p>
-            
-            <h4 align="justify">為什麼要收押金？</h4>
-            <p class="text-muted mb-4" align="justify">期待你更能對自己的選擇負責，我們希望來參加的人都是有心想一起玩資料的學生，希望參與者都能全心參與、全力以赴，而不是佔住名額。
-            <br><small>[註] 如計畫期間出勤次數符合主辦單位規定，押金將於結業式時全額退還。</small>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 mx-auto text-center">
+          <div class="suscribe-text text-center">          
+           <h3>
+            <p align="justify">
+              <ul align="justify">
+                <li> 本活動的最低參加人數 6 人，不滿 6 人將會取消這次活動 </li>
+                <li> 由於人力有限的關係，最終至多只會錄取 15 人 </li>
+                <li> 篩選條件會參考目前程度、你是否對資料有熱情奔放的心⋯所以報名資料內的資訊，都請用心填寫喔！ </li>
+                <li> 主辦單位可使用參加者本次活動照片與資料，作為活動文宣推廣、紀錄及行銷用。 </li>
+                <li> 主辦單位保有隨時修改及終止本活動之權利，如有任何變更內容或詳細注意事項將公布於網頁中，恕不另行個別通知。 </li>
+              </ul>
             </p>
-
-            <h4 align="justify">參加這個是不是要很厲害？</h4>
-            <p class="text-muted mb-4" align="justify">只要你願意動手玩資料，就算你機率論只考30分、SAS常常卡住不會寫，也可以來報名參加。</p>
+          </h3>
           </div>
-
+        </div>
       </div>
-    </section>
+    </div>
+  </div>
 
-    <section class="bg-dark text-white" id="contact">
+
+  <!-- Q and A start -->
+  <div id="qa" class="faq-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Q & A</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="faq-details">
+            <div class="panel-group" id="accordion">
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title" align="justify">
+                      <a data-toggle="collapse" class="active" data-parent="#accordion" href="#check1">
+                                                <span class="acc-icons"></span>為什麼限淡江統計系在校學生？
+                      </a>
+                    </h4>
+                </div>
+                <div id="check1" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <p>
+                      TSDC 是一個淡江統計學系系友所成立的社團，主要是希望可以回饋給淡江統計系的學生。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#check2">
+                                                <span class="acc-icons"></span> 為什麼要修過統計學？
+                      </a>
+                    </h4>
+                </div>
+                <div id="check2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>
+                      期待已對統計有基礎了解，並對資料分析方法有些許的認識，參與這項活動才能對資料有更深入的體會。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#check3">
+                                                <span class="acc-icons"></span>一定要大二以上嗎？
+                      </a>
+                    </h4>
+                </div>
+                <div id="check3" class="panel-collapse collapse ">
+                  <div class="panel-body">
+                    <p>
+                      在做資料分析的過程中大多需要大一課程中的知識，因此必須是大二以上的學生。
+                      <br><small>[註] 其實就是指統計學，就跟你說要好好唸書！</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#check4">
+                                                <span class="acc-icons"></span>若無寫程式經驗是否可參加?
+                      </a>
+                    </h4>
+                </div>
+                <div id="check4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>
+                      R、Python、SAS，你都沒學過怎麼辦？沒關係好的業師帶你上天堂，此三種常見的資料界程式語言，業師們都有所著墨，程式只是幫助我們完成事情的工具，只要你不怕寫，只要你願意詢問，我們就在你身旁！
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#check5">
+                                                <span class="acc-icons"></span>為什麼要收押金？
+                      </a>
+                    </h4>
+                </div>
+                <div id="check5" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>
+                      期待你更能對自己的選擇負責，我們希望來參加的人都是有心想一起玩資料的學生，希望參與者都能全心參與、全力以赴，而不是佔住名額。
+                      <br><small>[註] 如計畫期間出勤次數符合主辦單位規定，押金將於結業式時全額退還。</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#check6">
+                                                <span class="acc-icons"></span>參加這個是不是要很厲害？
+                      </a>
+                    </h4>
+                </div>
+                <div id="check6" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>
+                      只要你願意動手玩資料，就算你機率論只考30分、SAS常常卡住不會寫，也可以來報名參加。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->      
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end Row -->
+    </div>
+  </div>
+  <!-- End Faq Area -->
+
+  <!-- Start Footer bottom Area -->
+  <footer>
+    <div class="footer-area">
       <div class="container">
-        <div class="row text-center">
-          
-            <div class="col-lg-6 col-sm-8 mx-auto mb-5">
-                <div class="row">
-                  <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-heading">主辦單位</h2>
-                    <hr class="my-4">
-                  </div>
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-3">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2>T<span>SD</span>C</h2>
                 </div>
-                <div class="row mt-3 text-center mx-auto">
-                  <div class="col-lg-2 col-sm-6 mx-auto text-center sp-icons p-0">
-                    <img src="img/logo.png" height="90px" style="margin-top: 10px; margin-left: -15px;" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-8 mx-auto text-center">
-                    <div style="font-size: 0.8rem; letter-spacing: 1rem; margin-left: 20px;">         
-                      <a href="" target="_blank"><i class="fa fa-facebook-official fa-3x mb-3"></i></a>
-                      <a href="https://tkustatdc.github.io/homepage/" target="_blank"><i class="fa fa-globe fa-3x mb-3"></i></a>
-                      <a href="https://github.com/tkustatdc" target="_blank"><i class="fa fa-github-square fa-3x mb-3"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          <!--
-            <div class="col-lg-6 col-sm-8 mx-auto">
-              <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                  <h2 class="section-heading">贊助單位</h2>
-                  <hr class="my-4">
-                </div>
-              </div>
-              <div class="row mt-3 text-center mx-auto">
-                <div class="col-lg-2 col-sm-6 mx-auto text-center sp-icons p-0">
-                  <img src="img/sponsor_CCF.jpg" width="150px"/>
-                </div>
-                <div class="col-lg-2 col-sm-6 mx-auto text-center sp-icons p-0">
-                  <a href="https://www.inblooom.com/" target="_blank"><img src="img/sponsor_in.png" width="150px" /></a>
+                <p>Let's take a dive into deep data !</p>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://tkustatdc.github.io/homepage/"><i class="fa fa-globe"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/tkustatdc"><i class="fa fa-github-square"></i></a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-          -->
+          </div>
+
+          <!-- end single footer -->
+          <div class="col-lg-4 col-sm-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <p>
+                  Welcome to contact us !!
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Email:</span> tkustatdc@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
         </div>
       </div>
-    </section>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/creative.min.js"></script>
-
-  </body>
-
-  <!-- Footer -->
-  <footer class="py-5 bg-white">
-    <div class="container">
-      <p class="m-0 text-center">Copyright &copy;2018</p>
     </div>
-    <!-- /.container -->
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; Copyright <strong>TSDC</strong>
+              </p>
+            </div>
+            <div class="credits">
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> <br>
+              Photo Designed by <a href="http://www.freepik.com">Freepik</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/knob/jquery.knob.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  <script src="lib/appear/jquery.appear.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <!-- Uncomment below if you want to use dynamic Google Maps -->
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script> -->
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/main.js"></script>
+</body>
 
 </html>
