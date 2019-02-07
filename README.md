@@ -1,4 +1,4 @@
-# TSDC
+# TSDC -- The DeepData Program (1st)
 ### Tamkang Statistics Data Club
 TSDC (Tamkang Statistics Data Club)為淡江統計學系系友所成立的社團，提供對於資料分析有興趣的系友們一個共同學習與討論的空間。
 
